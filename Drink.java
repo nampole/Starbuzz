@@ -24,7 +24,7 @@ public class Drink {
     public String getName(){
         return name;
     }
-    public String getImageResourceId(){
+    public int getImageResourceId(){
         return imageResourceId;
     }
     public String toString(){
