@@ -1,5 +1,8 @@
 package com.hfad.starbuzz;
 
+import android.app.Activity;
+import android.os.Bundle;
+
 public class Drink {
     private String name;
     private String description;
@@ -7,9 +10,9 @@ public class Drink {
 
     //세가지 음료 배열
     public static final Drink[] drinks = {
-            new Drink ("라떼","따뜻한우유와에스프레소샷2개",R.drawable.latte),
-            new Drink ("카푸치노","따뜻한우유와에스프레소샷2개",R.drawable.cappuccino),
-            new Drink ("필터","따뜻한우유와에스프레소샷2개",R.drawable.filter),
+            new Drink ("라떼","따뜻한우유와에스프레소샷2개", R.drawable.latte),
+            new Drink ("카푸치노","따뜻한우유와에스프레소샷3개", R.drawable.cappuccino),
+            new Drink ("필터","따뜻한우유와에스프레소샷2개", R.drawable.filter),
     };
 
     private Drink(String name, String description, int imageResourceId) {
